@@ -55,7 +55,7 @@ if k == m * n:
     print('Это вся шоколадка:-)')
 elif k > m * n:
     print ('Это больше, чем долек в шоколадке')    
-elif n * (m - 1) >= k and k % n == 0 >= k or m * (n - 1) and k % m == 0:  
+elif k % n == 0 >= k or k % m == 0:  
     print('YES')  
 else:
     print('NO')
