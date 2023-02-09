@@ -72,8 +72,8 @@ def ru(text):
 bukviEn = {1:'AEIOULNSTR', 2:'DG', 3:'BCMP', 4:'FHVWY',	5:'K', 8:'JX', 10:'QZ'}
 bukviRu = {1:'АВЕИНОРСТ', 2:'ДКЛМПУ', 3:'БГЁЬЯ', 4:'ЙЫ', 5:'ЖЗХЦЧ',	8:'ШЭЮ', 10:'ФЩЪ'}
 
-text = input().upper()   
+text = input('Ввод: ').upper()   
 if ru(text):
-	print(sum([k for i in text for k, v in bukviRu.items() if i in v]))
+	print(f'Вывод: {sum([k for i in text for k, v in bukviRu.items() if i in v])}')
 else:
-	print(sum([k for i in text for k, v in bukviEn.items() if i in v]))
+	print(f'Вывод: {sum([k for i in text for k, v in bukviEn.items() if i in v])}')
