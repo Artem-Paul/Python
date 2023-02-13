@@ -31,8 +31,7 @@ for i in range(len(listOne)):
 print(sorted(listRes))   
 '''
 
-'''     Здесь попробовал через intersection и сразу множества, код работал, пока я не сделал ввод
-        множеств с клавиатуры. результат почему то начал выводить просто "set()", не могу понять почему
+'''     Здесь попробовал через intersection 
 
 
 n = int(input('Введите кол-во элементов первого множества: '))
@@ -41,11 +40,12 @@ setOne = set()
 setTwo = set()
 print('Введите элементы первого множества: ')
 for i in range(n):
-    setOne.add(input())
+    setOne.add(int(input()))
 print('Введите элементы второго множества: ')
 for i in range(m):
-    setOne.add(input())
+    setTwo.add(int(input()))
 print(sorted(setOne.intersection(setTwo)))
+
 '''
 
 # Задача 24: В фермерском хозяйстве в Карелии выращивают чернику. Она растет на круглой грядке,
