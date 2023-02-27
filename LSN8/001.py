@@ -1,10 +1,9 @@
-# with open('les8test.txt', 'r', encoding='utf-8') as file:
+# with open('les8test.txt', 'r', encoding='utf-8') as file:          ''' 'r' read 'w' write - все стирает и пишет заново,  'a' - дозапись'''
 #     # text = file.read().splitlines()
 #     # print(text)
-#
 #     while True:
 #         line = file.readline()
-#         if not line:
+#         if not line:                            '''если пустая строка'''
 #             break
 #         print(line.strip())
 
